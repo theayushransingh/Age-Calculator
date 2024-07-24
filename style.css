@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    max-width: 150%;
+
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #206d8e;
+    height: 75px;
+    gap: 15px;
+}
+
+.logo {
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.title {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+}
+
+.outer-container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: 31rem;
+    width: 60%;
+    background-color: #fff;
+    border: 12px solid rgb(206, 221, 219);
+    border-radius: 8px;
+
+
+}
+
+.inner-container {
+    display: flex;
+    color: #022F86;
+    flex-direction: column;
+    align-items: center;
+    gap: 35px;
+}
+
+.inner-heading {
+    font-weight: 500;
+    margin-top: 20px;
+}
+
+
+.input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+
+label {
+    width: 145px;
+}
+
+
+.date-input {
+    width: 500px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+    box-shadow: 1px 1px 4px #ddd;
+    cursor: pointer;
+
+}
+
+.cal-btn {
+    border: none;
+    padding: 7px 10px;
+    font-size: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+    background-color: #206d8e;
+    color: #ddd;
+    border: 1px solid #0f3d9a;
+    box-shadow: 1px 1px 2px #315ebad0;
+    font-weight: 500;
+    transition: 0.1s linear;
+}
+
+.cal-btn:hover {
+    background-color: #185a76;
+}
+
+.out-put {
+    font-size: 1.5rem;
+}
+
+.ageHeading {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.Age-head {
+    font: 1.2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.hide {
+    display: none;
+}
